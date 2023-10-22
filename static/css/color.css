@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin:0;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.header{
+    background-color: rgb(130, 166, 181);
+}
+.header>.container{
+    background-color: rgb(19, 47, 160);
+    height: 40px;
+}
+.main>.container{
+    margin-top: 10px;
+    height:400px;
+}
+.left{
+    float: left;
+    width: 700px;
+    height: 600px;
+    margin-bottom: 10px;
+    background-color: red;
+}
+.right{
+    float:right;
+    width:250px;
+    height:600px;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(41, 150, 55);
+    margin-bottom: 10px;
+}
+.footer{
+    clear:both;
+    background-color: rgb(234, 240, 242);
+}
+.footer>.container{
+    background-color: rgb(63, 65, 65);
+    height: 40px;
+}
